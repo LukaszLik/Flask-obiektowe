@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '<h1>Hi there</h1> <span>go to <a href="https://github.com/LukaszLik">Github</a></span>'
+    return '<h1>Flask</h1> <span>przejdź do <a href="https://github.com/LukaszLik/Flask-obiektowe">Githuba</a></span>'
 
 
 if __name__ == '__main__':
